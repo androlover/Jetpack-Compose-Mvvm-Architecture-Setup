@@ -63,4 +63,17 @@ dependencies {
     implementation (libs.coil.compose)
 
     //koin dependency
+    implementation( libs.koin.android)
+    implementation (libs.koin.androidx.compose)
+  //  ksp (libs.koin.ksp.compiler)
+
+    // Retrofit
+    implementation (libs.retrofit)
+
+// OkHttp
+    implementation (libs.okhttp)
+    implementation (libs.logging.interceptor)
+//moshi converter
+    implementation (libs.converter.moshi)
+    implementation (libs.moshi.kotlin)
 }
