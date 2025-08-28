@@ -76,4 +76,11 @@ dependencies {
 //moshi converter
     implementation (libs.converter.moshi)
     implementation (libs.moshi.kotlin)
+//splash screen
+    implementation (libs.androidx.core.splashscreen)
+//navigation
+    implementation (libs.androidx.navigation.compose)
+
+    implementation ("com.google.accompanist:accompanist-insets:0.30.1")
+
 }
