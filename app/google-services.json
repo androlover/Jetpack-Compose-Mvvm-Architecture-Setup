@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486280362242",
+    "project_id": "yuvaaptest",
+    "storage_bucket": "yuvaaptest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486280362242:android:5f57fbe2539b9f85236a1b",
+        "android_client_info": {
+          "package_name": "com.jaadutona.yuvaaptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486280362242-ufkiubtv4oib83ughe07ijijoo4913lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaadutona.yuvaaptest",
+            "certificate_hash": "fdadeed13e9be87e8687a841ec2d73d07be58436"
+          }
+        },
+        {
+          "client_id": "486280362242-cabrqta1g480dft2bo02gqtgtu9g93mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAelE0WwL4tG4PiM3VP62nsCBb7UZaQmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486280362242-cabrqta1g480dft2bo02gqtgtu9g93mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
 package com.jaadutona.yuvaaptest.ui.screen.login
 
+import android.content.Intent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -29,6 +30,8 @@ import androidx.compose.ui.tooling.preview.Devices.PIXEL
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.credentials.GetCredentialRequest
+import com.google.android.libraries.identity.googleid.GetGoogleIdOption
 import com.jaadutona.yuvaaptest.R
 import com.jaadutona.yuvaaptest.ui.components.AppColors
 
@@ -102,7 +105,10 @@ fun LoginScreen(
 
                 // Google Button (White background, dark text)
                 OutlinedButton(
-                    onClick = onGoogleLoginClick,
+                    onClick = {
+                        val signInIntent: Intent = googleSignInClient.signInIntent
+                        launcher.launch(signInIntent)
+                    },
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(50.dp),
